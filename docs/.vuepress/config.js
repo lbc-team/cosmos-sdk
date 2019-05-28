@@ -1,9 +1,9 @@
 module.exports = {
-  title: "Cosmos SDK 中文文档|深入浅出区块链",
+  title: "Cosmos SDK 中文文档",
   description: "Cosmos SDK 开发手册 & Gaia 中文文档  ",
-  ga: "UA-51029217-2",
+  ga: "",
   dest: "./dist/docs",
-  base: "/cosmos/",
+  base: "/docs/cosmos/",
   markdown: {
     lineNumbers: true
   },
@@ -21,12 +21,13 @@ module.exports = {
     },
     nav: [
       { text: "首页", link: "https://learnblockchain.cn" },
+      { text: "区块链文档中心", link: "https://learnblockchain.cn/docs/" },
       { text: "En", link: "https://cosmos.network/docs/" },
       { text: "RPC", link: "https://cosmos.network/rpc/" }
     ],
     sidebar: [
       {
-        title: "Overview",
+        title: "SDK 概述",
         collapsable: true,
         children: [
           "/intro/",
@@ -35,7 +36,7 @@ module.exports = {
         ]
       },
       {
-        title: "Tutorial",
+        title: "开发教程",
         collapsable: true,
         children: [
           "/tutorial/",
@@ -58,7 +59,7 @@ module.exports = {
         ]
       },
       {
-        title: "Clients",
+        title: "客户端",
         collapsable: true,
         children: [
       	  "/clients/",
