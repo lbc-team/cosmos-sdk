@@ -1,6 +1,6 @@
 module.exports = {
   title: "Cosmos SDK 中文文档",
-  description: "Cosmos SDK 开发手册 & Gaia 中文文档  ",
+  description: "Cosmos SDK 开发手册 & Gaia 中文文档",
   ga: "",
   dest: "./dist/docs",
   base: "/docs/cosmos/",
@@ -30,9 +30,9 @@ module.exports = {
         title: "SDK 概述",
         collapsable: true,
         children: [
-          "/intro/",
-          "/intro/sdk-design",
-          "/intro/ocap"
+          "/translations/cn/intro/",
+          "/translations/cn/intro/sdk-design",
+          "/translations/cn/intro/ocap"
         ]
       },
       {
