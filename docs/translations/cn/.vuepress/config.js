@@ -30,9 +30,10 @@ module.exports = {
         title: "SDK 概述",
         collapsable: true,
         children: [
-          "/translations/cn/intro/",
-          "/translations/cn/intro/sdk-design",
-          "/translations/cn/intro/ocap"
+          "/intro/",
+          "/intro/sdk-app-architecture",
+          "/intro/sdk-design",
+          "/intro/ocap"
         ]
       },
       {
